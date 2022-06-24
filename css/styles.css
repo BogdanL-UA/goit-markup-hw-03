@@ -1,0 +1,126 @@
+body {
+  color: #757575;
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.header {
+  background-color: #fff;
+}
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.logo span {
+  color: #2196f3;
+}
+.nav-item a {
+  color: #212121;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+  color: #2196f3;
+}
+.header-address {
+  color: #757575;
+  text-decoration: none;
+}
+.header-address:hover,
+.header-address:focus {
+  color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #fff;
+  font-weight: 900;
+  line-height: 1.4;
+}
+.hero-button {
+  background-color: #2196f3;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.9;
+  font-family: inherit;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+.specialty-list-item-titel {
+  color: #212121;
+  font-weight: 700;
+}
+.activitys-titel {
+  color: #212121;
+  font-weight: 700;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: #212121;
+}
+.team-list-item {
+  background-color: #fff;
+}
+.team-member {
+  color: #212121;
+  font-weight: 500;
+}
+.occupation {
+  font-weight: 400;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+.logo-footer span {
+  color: #2196f3;
+}
+.address-text {
+  color: #fff;
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: #2196f3;
+}
+.portfolio {
+  background-color: #eee;
+  border: 1px;
+}
+.filters-item-button {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.filters-item-button:hover,
+.filters-item-button:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+.projects li {
+  background-color: #eee;
+  border: 1px;
+}
+.project-name {
+  color: #212121;
+}
