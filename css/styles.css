@@ -1,7 +1,7 @@
 body {
   color: #757575;
   background-color: #e5e5e5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.2;
 }
@@ -16,6 +16,15 @@ body {
 }
 .logo span {
   color: #2196f3;
+}
+.nav-list,
+.specialty-list,
+.activitys-list,
+.team-list,
+.footer-list,
+.filters,
+.projects {
+  list-style-type: none;
 }
 .nav-item a {
   color: #212121;
@@ -41,6 +50,7 @@ body {
   color: #fff;
   font-weight: 900;
   line-height: 1.4;
+  text-align: center;
 }
 .hero-button {
   background-color: #2196f3;
@@ -76,7 +86,6 @@ body {
   font-weight: 500;
 }
 .occupation {
-  font-weight: 400;
 }
 .footer {
   background-color: #2f303a;
