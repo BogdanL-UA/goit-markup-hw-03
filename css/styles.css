@@ -43,11 +43,16 @@ body {
   width: 1600px;
   background: #e5e5e5;
 }
-.conteiner {
+.container {
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
-  padding: 94px 215px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .title {
   color: #212121;
@@ -93,7 +98,6 @@ body {
   letter-spacing: 0.03em;
 
   margin-right: 93px;
-  margin-left: 215px;
 }
 .logo span {
   color: #2196f3;
@@ -231,8 +235,8 @@ body {
 .footer-content {
   display: flex;
   flex-direction: column;
+
   padding-top: 60px;
-  padding-left: 215px;
 }
 .logo-footer {
   color: #fff;
@@ -242,6 +246,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
   margin-bottom: 20px;
 }
 .logo-footer span {
@@ -278,22 +283,72 @@ body {
   background-color: #eee;
   border: 1px;
 }
+/* filters */
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
 .filters-item-button {
   background-color: #f5f4fa;
   color: #212121;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding: 6px 22px;
+}
+.filters-item:not(:last-child) {
+  margin-right: 8px;
 }
 .filters-item-button:hover,
 .filters-item-button:focus {
   background-color: #2196f3;
   color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.projects li {
-  background-color: #eee;
-  border: 1px;
+.project {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: -30px;
+  margin-left: -30px;
+  padding-left: 0;
+}
+.project-item {
+  background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
+
+  flex-basis: calc(100% / 3 -30px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.project-img {
+  margin-bottom: 20px;
+}
+.project-title {
+  margin-right: 24px;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 .project-name {
   color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
