@@ -162,6 +162,7 @@ body {
 /* specialty */
 .specialty-list {
   display: flex;
+  padding-left: 0;
 }
 .specialty-list-item:not(:last-child) {
   margin-right: 50px;
