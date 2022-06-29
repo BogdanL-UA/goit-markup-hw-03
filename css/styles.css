@@ -40,8 +40,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.14;
-  width: 1600px;
-  background: #e5e5e5;
 }
 .container {
   max-width: 1200px;
@@ -65,7 +63,6 @@ body {
 
 /* heder */
 .header {
-  max-width: 1600px;
   border-bottom: 1px solid #ececec;
 }
 .header-content {
@@ -120,6 +117,7 @@ body {
 .header-address-link {
   color: #757575;
   text-decoration: none;
+  font-family: inherit;
 }
 .header-address-link:not(:last-child) {
   margin-right: 50px;
@@ -132,8 +130,8 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding-top: 360px;
-  padding-bottom: 220px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: #fff;
@@ -187,6 +185,7 @@ body {
 }
 .activitys-list {
   display: flex;
+  padding-left: 0;
 }
 .activitys-titel {
   margin-bottom: 50px;
@@ -200,6 +199,7 @@ body {
 }
 .team-list {
   display: flex;
+  padding-left: 0;
 }
 .team-list-item {
   background-color: #fff;
@@ -210,8 +210,9 @@ body {
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
-.team-list-item img {
-  margin-bottom: 30px;
+.team-list-item-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-member {
   color: #212121;
@@ -220,23 +221,25 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .occupation {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 0;
 }
 /* footer */
 .footer {
   background-color: #2f303a;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-content {
   display: flex;
   flex-direction: column;
-
-  padding-top: 60px;
 }
 .logo-footer {
   color: #fff;
@@ -254,7 +257,8 @@ body {
 }
 .footer-list {
   padding-left: 0;
-  padding-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .address-text {
   color: #fff;
@@ -322,21 +326,23 @@ body {
   margin-left: -30px;
   padding-left: 0;
 }
+.project-list {
+  padding-left: 0;
+  padding-right: 0;
+}
 .project-item {
   background-color: #fff;
   border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 
   flex-basis: calc(100% / 3 -30px);
   margin-top: 30px;
   margin-left: 30px;
 }
-.project-img {
-  margin-bottom: 20px;
-}
+
 .project-title {
-  margin-right: 24px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding: 20px 24px;
 }
 .project-name {
   color: #212121;
