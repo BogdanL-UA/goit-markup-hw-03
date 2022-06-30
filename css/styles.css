@@ -291,7 +291,7 @@ body {
 .filters {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filters-item-button {
   background-color: #f5f4fa;
