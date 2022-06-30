@@ -59,6 +59,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 /* heder */
@@ -172,7 +173,7 @@ body {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -189,9 +190,7 @@ body {
   display: flex;
   padding-left: 0;
 }
-.activitys-titel {
-  margin-bottom: 50px;
-}
+
 .activitys-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -262,12 +261,14 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+.footer-list li:not(:last-child) {
+  margin-bottom: 9px;
+}
 .address-text {
   color: #fff;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
   margin-bottom: 9px;
 }
 .footer-address {
@@ -280,9 +281,6 @@ body {
 .footer-address:hover,
 .footer-address:focus {
   color: #2196f3;
-}
-.email {
-  margin-bottom: 6px;
 }
 /* portfolio */
 .portfolio {
@@ -359,4 +357,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-bottom: 0;
 }
